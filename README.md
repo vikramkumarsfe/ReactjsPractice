@@ -29,7 +29,7 @@ Follow these steps to set up and update the project on your local machine.
 Start the local development server:
 
 ```bash
-npm start
+npm run dev
 ```
 
 This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
