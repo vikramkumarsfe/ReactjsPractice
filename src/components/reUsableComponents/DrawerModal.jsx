@@ -42,7 +42,7 @@ const DrawerModal = ({open, onClose, title, content, direction}) => {
 
                     
                 </div>
-                <div className="p-6">
+                <div className="p-6     ">
                         {content} 
                     </div>
              </div>
