@@ -21,11 +21,27 @@ const Home = ( ) => {
 
     return (
         <div className=" bg-rose-50 min-h-screen ">
-            <div className="bg-white p-8 w-4/12 mx-auto shadow-lg text-center">
+            <div className="bg-white p-8 w-8/12 mx-auto shadow-lg text-center">
                 <h1 className=" text-4xl font-semibold "> CodingOtt </h1>
-                <p className="text-lg font-medium text-gray-600 "> Understanding Redux in React Js</p>
+                <p className="text-lg font-medium text-gray-600 "> Understanding React js </p>
+                <div className="mt-6 flex gap-4 ">
+                    <Link to="/random" >
+                        <Button> Password Generator </Button>
+                    </Link>
+                    <Link to="/color" >
+                        <Button> Color  Generator </Button>
+                    </Link>
+
+                    <Link to="/modal" >
+                        <Button> Modal Test </Button>
+                    </Link>
+
+                    <Link to="/drawer" >
+                        <Button> Drawer Test  </Button>
+                    </Link>
+                </div>
                 <hr className=" my-6"/>
-                <div  className=" space-y-4">
+                <div  className=" space-y-4 grid grid-cols-2 ">
                     <Card
                     image="./image.jpg"
                     title="Vikram Kumar"

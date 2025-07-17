@@ -2,7 +2,7 @@
 
 const Card = ({title="title", description="description", image=null}) => {
     return (
-        <div className=" rounded-lg mx-auto  shadow-lg w-[400px]">
+        <div className=" rounded-lg mx-auto  shadow-lg w-[400px] h-fit">
             <img 
                 src={image}
                 className="rounded-t-lg h-[300px] mx-auto "
